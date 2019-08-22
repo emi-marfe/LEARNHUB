@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.adminsurfacetech.my_learn_hub"
+        minSdkVersion 22
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    // firebase core
+    implementation 'com.google.firebase:firebase-core:16.0.1'
+    // firebase Auth
+    implementation 'com.google.firebase:firebase-auth:16.0.1'
+    // firebase Storage
+    implementation 'com.google.firebase:firebase-storage:16.0.1'
+    // firebase Database
+    implementation 'com.google.firebase:firebase-database:16.0.1'
+    // firebase messaging service
+    implementation 'com.google.firebase:firebase-messaging:17.0.0'
+    // firebase ui database
+    implementation 'com.firebaseui:firebase-ui-database:1.2.0'
+    // Glide library
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+    // Material search menu
+    implementation 'com.miguelcatalan:materialsearchview:1.4.0'
+
+    // circle image view dependency
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+
+    // teesting for a stupid cardview
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    // picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    // beatiful progress bar dependency
+    implementation 'com.github.ybq:Android-SpinKit:1.2.0'
+    // normal support
+    implementation 'com.android.support:design:28.0.0'
+    // splash text
+    implementation 'yasic.library.ParticleTextView:particletextview:0.0.5'
+    // about page library
+    implementation 'com.github.medyo:android-about-page:1.2.5'
+}

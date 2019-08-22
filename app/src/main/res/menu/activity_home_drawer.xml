@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="About"/>
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_report_problem_black_24dp"
+            android:title="Feedback"/>
+        <item
+            android:id="@+id/action_contact"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Contact me" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Setting" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Share" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_Logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="LogOut" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_clear_black_24dp"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>

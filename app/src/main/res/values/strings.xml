@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">My_Learn_Hub</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="login_now">Login</string>
+    <string name="Signup">Signup</string>
+    <string name="forgotten_password">Forgotten Password?</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="login">Login?</string>
+    <string name="sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="or">or</string>
+    <string name="title_activity_sign">Sign in</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="add">Add</string>
+    <string name="toast_message">"
+        1. Enter your full name for the quiz.
+        2. Upload your picture to make it unique
+
+        3.   Enter your valid mail address.
+        eg: abc@xyz.com
+
+        4.   Now set your password for
+        security purpose.
+
+        Enjoy the app! and share ☺☺☺</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

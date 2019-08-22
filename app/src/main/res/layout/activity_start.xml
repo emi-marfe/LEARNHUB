@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColorApp"
+    tools:context=".Activity.Start">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_flattr"/>
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="?attr/toolbarColor"
+        app:cardElevation="4dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnplay"
+            android:foreground="?android:attr/selectableItemBackground"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_margin="8dp"
+            android:background="@color/freestyle"
+            android:theme="@style/AppTheme.PopupOverlay"
+            android:text="PLAY"
+            android:textColor="#000"
+            android:fontFamily="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
